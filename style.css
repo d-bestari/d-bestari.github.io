@@ -1,0 +1,63 @@
+section {
+  padding-top: 5rem;
+}
+
+.jumbotron {
+  padding: 6rem 1rem;
+  background-color: #d9d9d9;
+}
+
+.jumbotron a {
+  text-decoration: none !important;
+}
+
+.jumbotron a i {
+  display: inline-block;
+  transition: transform 0.2s, color 0.2s;
+  cursor: pointer;
+}
+
+.jumbotron a:hover i {
+  color: #555;
+  transform: scale(1.2);
+}
+
+#about {
+  padding-bottom: 2rem;
+}
+
+#project {
+  padding-bottom: 2rem;
+}
+
+#experience {
+  padding-bottom: 2rem;
+  background-color: #d9d9d9;
+}
+
+#skill {
+  padding-bottom: 2rem;
+  background-color: #d9d9d9;
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+#project .card,
+#experience .card {
+  transition: transform 0.2s, box-shadow 0.2s;
+  cursor: pointer;
+}
+
+#project .card:hover,
+#experience .card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.footer {
+  margin-top: auto; /* dorong footer ke bawah */
+  padding: 1rem 0;
+}
