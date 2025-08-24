@@ -58,6 +58,57 @@ section {
 }
 
 .footer {
-  margin-top: auto; /* dorong footer ke bawah */
+  margin-top: auto;
   padding: 1rem 0;
+}
+
+.card .card-img-top {
+  filter: grayscale(100%);
+  transition: filter 0.4s ease-in-out;
+}
+
+.card .card-img-top:hover {
+  filter: grayscale(0%);
+}
+
+.experience-page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background: #f8f9fa;
+}
+
+.experience-page h2 {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.experience-section {
+  flex: 1;
+  padding: 60px 0;
+}
+.experience-card {
+  border: none;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.experience-card:hover {
+  transform: translateY(-8px);
+}
+
+.experience-card img {
+  filter: grayscale(100%);
+  transition: filter 0.4s ease-in-out;
+}
+
+.experience-card img:hover {
+  filter: grayscale(0%);
+}
+
+.experience-card .card-body {
+  text-align: justify;
 }

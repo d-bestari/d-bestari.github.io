@@ -4,11 +4,14 @@
     <!-- Meta tags -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" />
+
     <!-- Tab -->
     <title>My Portofolio | Dhurin Faisal</title>
+
     <!-- CSS -->
     <link rel="stylesheet" href="style.css" />
   </head>
@@ -44,15 +47,14 @@
     <!-- End of NavBar -->
 
     <!-- Jumbotron -->
-    <section class="jumbotron">
+    <section class="jumbotron py-5">
       <div class="container">
-        <div class="row align-items-center justify-content-center">
+        <div class="d-flex flex-column flex-md-row align-items-center">
           <!-- Profile Text -->
-          <div class="col-md-5 text-center text-md-start order-2 order-md-1">
+          <div class="flex-grow-1 text-center text-md-start px-md-3 order-2 order-md-1">
             <h1 class="display-4">Dhurin Faisal B.</h1>
             <p class="h5" style="color: #3a3a3a">Physical Chemistry | Computational Chemistry</p>
             <p class="lead" style="color: #7a7a7a">Passionate about innovation in science and computation</p>
-            <!-- Social Media Icons -->
             <div class="mt-3">
               <a href="https://github.com/d-bestari" target="_blank" class="text-dark me-3 fs-4">
                 <i class="bi bi-github"></i>
@@ -65,9 +67,10 @@
               </a>
             </div>
           </div>
+
           <!-- Profile Image -->
-          <div class="col-md-5 text-center order-1 order-md-2">
-            <img src="img/lasiaf.png" alt="Lasiafniruhd" class="rounded-circle shadow-sm img-fluid" style="max-width: 250px" />
+          <div class="flex-shrink-0 mb-3 mb-md-0 ms-md-5 order-1 order-md-2">
+            <img src="img/lasiaf.png" alt="Lasiafniruhd" class="img-fluid" style="max-width: 250px" />
           </div>
         </div>
       </div>
@@ -82,12 +85,20 @@
             <h2>About Me</h2>
           </div>
         </div>
+
         <div class="row justify-content-center fs-5">
-          <div class="col-md-6 mb-3 mb-md-0" style="text-align: justify">
-            I am an undergraduate student majoring in Physical and Computational Chemistry, with a strong interest in molecular simulation. My research focuses on ionic liquids, especially their structural and dynamic properties through
-            computational approaches.
+          <!-- left -->
+          <div class="col-10 col-md-6 mx-auto mx-md-0" style="text-align: justify">
+            <p>
+              I am an undergraduate student majoring in Physical and Computational Chemistry, with a strong interest in molecular simulation. My research focuses on ionic liquids, especially their structural and dynamic properties through
+              computational approaches.
+            </p>
           </div>
-          <div class="col-md-4" style="text-align: justify">I am passionate about applying chemistry and computation to solve scientific challenges, and I am eager to collaborate and grow in the field of scientific innovation.</div>
+
+          <!-- right -->
+          <div class="col-10 col-md-6 mx-auto mx-md-0" style="text-align: justify">
+            <p>I am passionate about applying chemistry and computation to solve scientific challenges, and I am eager to collaborate and grow in the field of scientific innovation.</p>
+          </div>
         </div>
       </div>
     </section>
@@ -96,44 +107,48 @@
     <!-- Skills -->
     <section id="skill">
       <div class="container text-center">
-        <div class="row mb-3">
+        <!-- Section Title -->
+        <div class="row mb-4">
           <div class="col">
             <h2>My Skills</h2>
           </div>
         </div>
+
         <!-- Software Skills -->
-        <div class="row justify-content-center mb-3">
-          <div class="col-md-8 text-start">
-            <h5>Software</h5>
-            <div class="d-flex flex-wrap gap-2">
-              <span class="badge bg-secondary fs-6"> <i class="bi bi-file-earmark-word"></i> Word </span>
-              <span class="badge bg-secondary fs-6"> <i class="bi bi-file-earmark-excel"></i> Excel </span>
-              <span class="badge bg-secondary fs-6"> <i class="bi bi-file-earmark-ppt"></i> PowerPoint </span>
-              <span class="badge bg-secondary fs-6"> <i class="bi bi-graph-up"></i> OriginLab </span>
-              <span class="badge bg-secondary fs-6"> <i class="bi bi-cpu"></i> GROMACS </span>
+        <div class="row justify-content mb-3">
+          <div class="col-10 col-md-8 text-start mx-auto mx-md-0">
+            <h5><i class="bi bi-laptop me-2"></i> Software</h5>
+            <div class="d-flex flex-wrap gap-2 justify-content-center justify-content-md-start">
+              <span class="badge bg-secondary fs-6 rounded-pill shadow-sm"> <i class="bi bi-file-earmark-word"></i> Word </span>
+              <span class="badge bg-secondary fs-6 rounded-pill shadow-sm"> <i class="bi bi-file-earmark-excel"></i> Excel </span>
+              <span class="badge bg-secondary fs-6 rounded-pill shadow-sm"> <i class="bi bi-file-earmark-ppt"></i> PowerPoint </span>
+              <span class="badge bg-secondary fs-6 rounded-pill shadow-sm"> <i class="bi bi-graph-up"></i> OriginLab </span>
+              <span class="badge bg-secondary fs-6 rounded-pill shadow-sm"> <i class="bi bi-cpu"></i> GROMACS </span>
             </div>
           </div>
         </div>
+
         <!-- Programming Skills -->
-        <div class="row justify-content-center mb-3">
-          <div class="col-md-8 text-start">
-            <h5>Programming / Scripting</h5>
-            <div class="d-flex flex-wrap gap-2">
-              <span class="badge bg-primary fs-6"> <i class="bi bi-file-code"></i> Python </span>
-              <span class="badge bg-primary fs-6"> <i class="bi bi-file-code"></i> HTML </span>
-              <span class="badge bg-primary fs-6"> <i class="bi bi-file-code"></i> CSS </span>
-              <span class="badge bg-primary fs-6"> <i class="bi bi-file-code"></i> JavaScript </span>
-              <span class="badge bg-primary fs-6"> <i class="bi bi-terminal"></i> Bash </span>
+        <div class="row justify-content mb-3">
+          <div class="col-10 col-md-8 text-start mx-auto mx-md-0">
+            <h5><i class="bi bi-code-slash me-2"></i> Programming / Scripting</h5>
+            <div class="d-flex flex-wrap gap-2 justify-content-center justify-content-md-start">
+              <span class="badge bg-primary fs-6 rounded-pill shadow-sm"> <i class="bi bi-file-code"></i> Python </span>
+              <span class="badge bg-primary fs-6 rounded-pill shadow-sm"> <i class="bi bi-file-code"></i> HTML </span>
+              <span class="badge bg-primary fs-6 rounded-pill shadow-sm"> <i class="bi bi-file-code"></i> CSS </span>
+              <span class="badge bg-primary fs-6 rounded-pill shadow-sm"> <i class="bi bi-file-code"></i> JavaScript </span>
+              <span class="badge bg-primary fs-6 rounded-pill shadow-sm"> <i class="bi bi-terminal"></i> Bash </span>
             </div>
           </div>
         </div>
+
         <!-- Tools / Design -->
-        <div class="row justify-content-center mb-3">
-          <div class="col-md-8 text-start">
-            <h5>Tools / Design</h5>
-            <div class="d-flex flex-wrap gap-2">
-              <span class="badge bg-success fs-6"> <i class="bi bi-c-circle"></i> Canva </span>
-              <span class="badge bg-success fs-6"> <i class="bi bi-palette"></i> Figma </span>
+        <div class="row justify-content mb-3">
+          <div class="col-10 col-md-8 text-start mx-auto mx-md-0">
+            <h5><i class="bi bi-tools me-2"></i> Tools / Design</h5>
+            <div class="d-flex flex-wrap gap-2 justify-content-center justify-content-md-start">
+              <span class="badge bg-success fs-6 rounded-pill shadow-sm"> <i class="bi bi-c-circle"></i> Canva </span>
+              <span class="badge bg-success fs-6 rounded-pill shadow-sm"> <i class="bi bi-palette"></i> Figma </span>
             </div>
           </div>
         </div>
@@ -143,19 +158,19 @@
 
     <!-- Projects -->
     <section id="project">
-      <div class="container text-center">
+      <div class="container">
         <div class="row mb-3">
-          <div class="col">
+          <div class="col text-center">
             <h2>My Projects</h2>
           </div>
         </div>
         <div class="row justify-content-center fs-5">
-          <div class="col-md-4">
+          <div class="col-10 col-md-4 mb-3 px-2 px-md-0">
             <a href="research.html" class="text-decoration-none text-dark">
               <div class="card">
-                <img src="img/battery-unsplash.jpg" class="card-img-top" alt="battery-unsplash" />
+                <img src="img/battery-unsplash.jpg" class="card-img-top img-fluid" alt="battery-unsplash" />
                 <div class="card-body">
-                  <p class="card-text">Final Year Project: Molecular Dynamics Simulation of Ionic Liquid Pyr[13]TFSI and NaTFSI Mixtures</p>
+                  <p class="card-text" style="text-align: justify">Final Year Project: Molecular Dynamics Simulation of Ionic Liquid Pyr[13]TFSI and NaTFSI Mixtures</p>
                 </div>
               </div>
             </a>
@@ -163,80 +178,87 @@
         </div>
       </div>
     </section>
-
     <!-- End of Projects -->
 
-<!-- Experiences -->
-<section id="experience">
-  <div class="container text-center">
-    <div class="row mb-3">
-      <div class="col">
-        <h2>My Experiences</h2>
-      </div>
-    </div>
-
-    <!-- Row 1 -->
-    <div class="row justify-content-center fs-5 mb-3">
-      <div class="col-md-4 mb-3">
-        <a href="oandc.html" class="text-decoration-none text-dark">
-          <div class="card">
-            <img src="img/committee.jpeg" class="card-img-top" alt="comittee" />
-            <div class="card-body">
-              <p class="card-text">Organization & Committee</p>
-            </div>
+    <!-- Experiences -->
+    <section id="experience">
+      <div class="container px-3 text-center">
+        <div class="row mb-3">
+          <div class="col">
+            <h2>My Experiences</h2>
           </div>
-        </a>
-      </div>
-      <div class="col-md-4 mb-3">
-        <a href="vol.html" class="text-decoration-none text-dark">
-          <div class="card">
-            <img src="img/volunt.jpeg" class="card-img-top" alt="volunt" />
-            <div class="card-body">
-              <p class="card-text">Volunteering</p>
-            </div>
-          </div>
-        </a>
-      </div>
-      <div class="col-md-4 mb-3">
-        <a href="intern.html" class="text-decoration-none text-dark">
-          <div class="card">
-            <img src="img/intern.jpeg" class="card-img-top" alt="intern" />
-            <div class="card-body">
-              <p class="card-text">Internship</p>
-            </div>
-          </div>
-        </a>
-      </div>
-    </div>
-
-    <!-- Row 2 -->
-    <div class="row justify-content-center fs-5">
-  <div class="col-md-4 mb-3">
-    <a href="canda.html" class="text-decoration-none text-dark">
-      <div class="card">
-        <div class="d-flex justify-content-center py-5">
-          <i class="bi bi-award fs-1 text-warning"></i>
         </div>
-        <div class="card-body text-center">
-          <p class="card-text">Certifications & Achievements</p>
+
+        <!-- Row 1 -->
+        <div class="row justify-content-center fs-5 g-3">
+          <div class="col-md-4 col-10 mb-3">
+            <a href="oandc.html" class="text-decoration-none text-dark">
+              <div class="card">
+                <img src="img/committee.jpeg" class="card-img-top" alt="comittee" />
+                <div class="card-body">
+                  <p class="card-text">Organization & Committee</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-4 col-10 mb-3">
+            <a href="vol.html" class="text-decoration-none text-dark">
+              <div class="card">
+                <img src="img/volunt.jpeg" class="card-img-top" alt="volunt" />
+                <div class="card-body">
+                  <p class="card-text">Volunteering</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-4 col-10 mb-3">
+            <a href="intern.html" class="text-decoration-none text-dark">
+              <div class="card">
+                <img src="img/intern.jpeg" class="card-img-top" alt="intern" />
+                <div class="card-body">
+                  <p class="card-text">Internship</p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <!-- Row 2 -->
+        <div class="row justify-content-center fs-5 g-3">
+          <div class="col-md-4 col-10 mb-3">
+            <a href="partic.html" class="text-decoration-none text-dark">
+              <div class="card">
+                <img src="img/partic.jpg" class="card-img-top" alt="intern" />
+                <div class="card-body text-center">
+                  <p class="card-text">Participation</p>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-md-4 col-10 mb-3">
+            <a href="canda.html" class="text-decoration-none text-dark">
+              <div class="card">
+                <img src="img/sertif.png" class="card-img-top" alt="intern" />
+                <div class="card-body text-center">
+                  <p class="card-text">Certifications & Achievements</p>
+                </div>
+              </div>
+            </a>
+          </div>
         </div>
       </div>
-    </a>
-  </div>
-</div>
-
-  </div>
-</section>
-<!-- End of Experiences-->
-
+    </section>
+    <!-- End of Experiences-->
 
     <!-- Footer -->
     <div class="footer text-white text-center" style="background-color: #3a3a3a">
-      <p>"Science is organised knowledge. Wisdom is organised life"-Immanuel Kant</p>
+      <p>"Science is organised knowledge. Wisdom is organised life" - Immanuel Kant</p>
     </div>
-    <!-- End ofFooter -->
+    <!-- End of Footer -->
 
-    <!-- Bootstrap js -->
+    <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
   </body>
 </html>
