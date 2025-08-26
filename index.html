@@ -1,23 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- Meta tags -->
+    <!-- Charset Encoding -->
     <meta charset="utf-8" />
+
+    <!-- Responsive design for mobile -->
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous" />
+
+    <!-- Bootsrtap CSS for Icon -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" />
 
-    <!-- Tab -->
-    <title>My Portofolio | Dhurin Faisal</title>
-
-    <!-- CSS -->
+    <!-- My CSS -->
     <link rel="stylesheet" href="style.css" />
+
+    <!-- Page Title -->
+    <title>My Portofolio | Dhurin Faisal</title>
   </head>
   <body id="home">
-    <!-- NavBar -->
-    <nav class="navbar navbar-expand-lg navbar-dark shadow-sm fixed-top" style="background-color: #3a3a3a">
+    <!-- Start of NavBar -->
+    <nav class="navbar navbar-expand-lg navbar-dark shadow-sm fixed-top">
       <div class="container">
         <a class="navbar-brand" href="#">Lasiafniruhd</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -32,10 +36,10 @@
               <a class="nav-link" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#skill">Skills</a>
+              <a class="nav-link" href="#skills">Skills</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#project">Project</a>
+              <a class="nav-link" href="#projects">Projects</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#experience">Experience</a>
@@ -46,8 +50,8 @@
     </nav>
     <!-- End of NavBar -->
 
-    <!-- Jumbotron -->
-    <section class="jumbotron py-5">
+    <!-- Start of Jumbotron -->
+    <section class="jumbotron">
       <div class="container">
         <div class="d-flex flex-column flex-md-row align-items-center">
           <!-- Profile Text -->
@@ -55,6 +59,7 @@
             <h1 class="display-4">Dhurin Faisal B.</h1>
             <p class="h5" style="color: #3a3a3a">Physical Chemistry | Computational Chemistry</p>
             <p class="lead" style="color: #7a7a7a">Passionate about innovation in science and computation</p>
+            <!-- Social Media Icon -->
             <div class="mt-3">
               <a href="https://github.com/d-bestari" target="_blank" class="text-dark me-3 fs-4">
                 <i class="bi bi-github"></i>
@@ -67,7 +72,6 @@
               </a>
             </div>
           </div>
-
           <!-- Profile Image -->
           <div class="flex-shrink-0 mb-3 mb-md-0 ms-md-5 order-1 order-md-2">
             <img src="img/lasiaf.png" alt="Lasiafniruhd" class="img-fluid" style="max-width: 250px" />
@@ -77,7 +81,7 @@
     </section>
     <!-- End of Jumbotron -->
 
-    <!-- About -->
+    <!-- Start of About -->
     <section id="about">
       <div class="container">
         <div class="row mb-3">
@@ -85,17 +89,15 @@
             <h2>About Me</h2>
           </div>
         </div>
-
         <div class="row justify-content-center fs-5">
-          <!-- left -->
+          <!-- Left Paragraph-->
           <div class="col-10 col-md-6 mx-auto mx-md-0" style="text-align: justify">
             <p>
-              I am an undergraduate student majoring in Physical and Computational Chemistry, with a strong interest in molecular simulation. My research focuses on ionic liquids, especially their structural and dynamic properties through
-              computational approaches.
+              I am an undergraduate student majoring in Physical and Computational Chemistry at Universitas Gadjah Mada (UGM), with a strong interest in molecular simulation. My research focuses on ionic liquids, especially their structural
+              and dynamic properties through computational approaches.
             </p>
           </div>
-
-          <!-- right -->
+          <!-- Right Paragraph -->
           <div class="col-10 col-md-6 mx-auto mx-md-0" style="text-align: justify">
             <p>I am passionate about applying chemistry and computation to solve scientific challenges, and I am eager to collaborate and grow in the field of scientific innovation.</p>
           </div>
@@ -104,50 +106,65 @@
     </section>
     <!-- End of About -->
 
-    <!-- Skills -->
-    <section id="skill">
+    <!-- Start of Skills -->
+    <section id="skills">
       <div class="container text-center">
-        <!-- Section Title -->
-        <div class="row mb-4">
+        <div class="row mb-3">
           <div class="col">
-            <h2>My Skills</h2>
+            <h2>Skills</h2>
           </div>
         </div>
-
-        <!-- Software Skills -->
-        <div class="row justify-content mb-3">
+        <!-- Software Office -->
+        <div class="row mb-3">
           <div class="col-10 col-md-8 text-start mx-auto mx-md-0">
-            <h5><i class="bi bi-laptop me-2"></i> Software</h5>
+            <h5><i class="bi bi-laptop me-2"></i> Software Office</h5>
             <div class="d-flex flex-wrap gap-2 justify-content-center justify-content-md-start">
-              <span class="badge bg-secondary fs-6 rounded-pill shadow-sm"> <i class="bi bi-file-earmark-word"></i> Word </span>
-              <span class="badge bg-secondary fs-6 rounded-pill shadow-sm"> <i class="bi bi-file-earmark-excel"></i> Excel </span>
-              <span class="badge bg-secondary fs-6 rounded-pill shadow-sm"> <i class="bi bi-file-earmark-ppt"></i> PowerPoint </span>
-              <span class="badge bg-secondary fs-6 rounded-pill shadow-sm"> <i class="bi bi-graph-up"></i> OriginLab </span>
-              <span class="badge bg-secondary fs-6 rounded-pill shadow-sm"> <i class="bi bi-cpu"></i> GROMACS </span>
+              <span class="badge bg-dark fs-6 rounded-pill shadow-sm"> <i class="bi bi-file-earmark-word"></i> Word </span>
+              <span class="badge bg-dark fs-6 rounded-pill shadow-sm"> <i class="bi bi-file-earmark-excel"></i> Excel </span>
+              <span class="badge bg-dark fs-6 rounded-pill shadow-sm"> <i class="bi bi-file-earmark-ppt"></i> PowerPoint </span>
             </div>
           </div>
         </div>
-
-        <!-- Programming Skills -->
-        <div class="row justify-content mb-3">
+        <!-- Scientific / Analysis Tools -->
+        <div class="row mb-3">
+          <div class="col-10 col-md-8 text-start mx-auto mx-md-0">
+            <h5><i class="bi bi-graph-up me-2"></i> Scientific / Analysis Tools</h5>
+            <div class="d-flex flex-wrap gap-2 justify-content-center justify-content-md-start">
+              <span class="badge bg-secondary fs-6 rounded-pill shadow-sm"> <i class="bi bi-palette"></i> ChemDraw </span>
+              <span class="badge bg-secondary fs-6 rounded-pill shadow-sm"> <i class="bi bi-graph-up"></i> OriginLab </span>
+            </div>
+          </div>
+        </div>
+        <!-- Computational Chemistrys -->
+        <div class="row mb-3">
+          <div class="col-10 col-md-8 text-start mx-auto mx-md-0">
+            <h5><i class="bi bi-cpu me-2"></i> Computational Chemistry</h5>
+            <div class="d-flex flex-wrap gap-2 justify-content-center justify-content-md-start">
+              <span class="badge bg-primary fs-6 rounded-pill shadow-sm"> <i class="bi bi-eye"></i> VMD</span>
+              <span class="badge bg-primary fs-6 rounded-pill shadow-sm"> <i class="bi bi-eye"></i> Ovito </span>
+              <span class="badge bg-primary fs-6 rounded-pill shadow-sm"> <i class="bi bi-cpu"></i> GROMACS </span>
+            </div>
+          </div>
+        </div>
+        <!-- Programming / Scripting -->
+        <div class="row mb-3">
           <div class="col-10 col-md-8 text-start mx-auto mx-md-0">
             <h5><i class="bi bi-code-slash me-2"></i> Programming / Scripting</h5>
             <div class="d-flex flex-wrap gap-2 justify-content-center justify-content-md-start">
-              <span class="badge bg-primary fs-6 rounded-pill shadow-sm"> <i class="bi bi-file-code"></i> Python </span>
-              <span class="badge bg-primary fs-6 rounded-pill shadow-sm"> <i class="bi bi-file-code"></i> HTML </span>
-              <span class="badge bg-primary fs-6 rounded-pill shadow-sm"> <i class="bi bi-file-code"></i> CSS </span>
-              <span class="badge bg-primary fs-6 rounded-pill shadow-sm"> <i class="bi bi-file-code"></i> JavaScript </span>
-              <span class="badge bg-primary fs-6 rounded-pill shadow-sm"> <i class="bi bi-terminal"></i> Bash </span>
+              <span class="badge bg-info fs-6 rounded-pill shadow-sm"> <i class="bi bi-file-code"></i> Python </span>
+              <span class="badge bg-info fs-6 rounded-pill shadow-sm"> <i class="bi bi-file-code"></i> HTML </span>
+              <span class="badge bg-info fs-6 rounded-pill shadow-sm"> <i class="bi bi-file-code"></i> CSS </span>
+              <span class="badge bg-info fs-6 rounded-pill shadow-sm"> <i class="bi bi-file-code"></i> JavaScript </span>
+              <span class="badge bg-info fs-6 rounded-pill shadow-sm"> <i class="bi bi-terminal"></i> Bash </span>
             </div>
           </div>
         </div>
-
         <!-- Tools / Design -->
-        <div class="row justify-content mb-3">
+        <div class="row mb-3">
           <div class="col-10 col-md-8 text-start mx-auto mx-md-0">
             <h5><i class="bi bi-tools me-2"></i> Tools / Design</h5>
             <div class="d-flex flex-wrap gap-2 justify-content-center justify-content-md-start">
-              <span class="badge bg-success fs-6 rounded-pill shadow-sm"> <i class="bi bi-c-circle"></i> Canva </span>
+              <span class="badge bg-success fs-6 rounded-pill shadow-sm"> <i class="bi bi-palette"></i> Canva </span>
               <span class="badge bg-success fs-6 rounded-pill shadow-sm"> <i class="bi bi-palette"></i> Figma </span>
             </div>
           </div>
@@ -156,21 +173,44 @@
     </section>
     <!-- End of Skills -->
 
-    <!-- Projects -->
-    <section id="project">
+    <!-- Start of Projects -->
+    <section id="projects">
       <div class="container">
         <div class="row mb-3">
           <div class="col text-center">
-            <h2>My Projects</h2>
+            <h2>Projects</h2>
           </div>
         </div>
-        <div class="row justify-content-center fs-5">
-          <div class="col-10 col-md-4 mb-3 px-2 px-md-0">
-            <a href="research.html" class="text-decoration-none text-dark">
-              <div class="card">
+        <div class="row justify-content-center fs-5 g-3">
+          <!-- Project 1 -->
+          <div class="col-md-4 col-10 mb-3">
+            <a href="#" class="text-decoration-none text-dark" data-bs-toggle="modal" data-bs-target="#project1-modal">
+              <div class="card h-100">
                 <img src="img/battery-unsplash.jpg" class="card-img-top img-fluid" alt="battery-unsplash" />
                 <div class="card-body">
-                  <p class="card-text" style="text-align: justify">Final Year Project: Molecular Dynamics Simulation of Ionic Liquid Pyr[13]TFSI and NaTFSI Mixtures</p>
+                  <p class="card-text" style="text-align: justify">Pyr<sub>13</sub>-TFSI and Na-TFSI Mixtures Simulation</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <!-- Project 2 -->
+          <div class="col-md-4 col-10 mb-3">
+            <a href="#" class="text-decoration-none text-dark" data-bs-toggle="modal" data-bs-target="#project2-modal">
+              <div class="card h-100">
+                <img src="img/charge_scaling-unsplash.jpg" class="card-img-top img-fluid" alt="charge_scaling" />
+                <div class="card-body">
+                  <p class="card-text" style="text-align: justify">Charge Scaling for GROMACS topology (.top)</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <!-- Project 3 -->
+          <div class="col-md-4 col-10 mb-3">
+            <a href="#" class="text-decoration-none text-dark" data-bs-toggle="modal" data-bs-target="#project3-modal">
+              <div class="card h-100">
+                <img src="img/triple-dice-unsplash.jpg" class="card-img-top img-fluid" alt="triple-dice-unsplash" />
+                <div class="card-body">
+                  <p class="card-text" style="text-align: justify">Triple-Dice Game Helper</p>
                 </div>
               </div>
             </a>
@@ -180,20 +220,20 @@
     </section>
     <!-- End of Projects -->
 
-    <!-- Experiences -->
+    <!-- Start of Experiences -->
     <section id="experience">
-      <div class="container px-3 text-center">
+      <div class="container text-center">
         <div class="row mb-3">
           <div class="col">
-            <h2>My Experiences</h2>
+            <h2>Experience</h2>
           </div>
         </div>
-
         <!-- Row 1 -->
         <div class="row justify-content-center fs-5 g-3">
+          <!-- Oranization & Committee -->
           <div class="col-md-4 col-10 mb-3">
             <a href="oandc.html" class="text-decoration-none text-dark">
-              <div class="card">
+              <div class="card h-100">
                 <img src="img/committee.jpeg" class="card-img-top" alt="comittee" />
                 <div class="card-body">
                   <p class="card-text">Organization & Committee</p>
@@ -201,9 +241,10 @@
               </div>
             </a>
           </div>
+          <!-- Voluntering -->
           <div class="col-md-4 col-10 mb-3">
             <a href="vol.html" class="text-decoration-none text-dark">
-              <div class="card">
+              <div class="card h-100">
                 <img src="img/volunt.jpeg" class="card-img-top" alt="volunt" />
                 <div class="card-body">
                   <p class="card-text">Volunteering</p>
@@ -211,9 +252,10 @@
               </div>
             </a>
           </div>
+          <!-- Internship -->
           <div class="col-md-4 col-10 mb-3">
             <a href="intern.html" class="text-decoration-none text-dark">
-              <div class="card">
+              <div class="card h-100">
                 <img src="img/intern.jpeg" class="card-img-top" alt="intern" />
                 <div class="card-body">
                   <p class="card-text">Internship</p>
@@ -222,12 +264,12 @@
             </a>
           </div>
         </div>
-
         <!-- Row 2 -->
         <div class="row justify-content-center fs-5 g-3">
+          <!-- Participation -->
           <div class="col-md-4 col-10 mb-3">
             <a href="partic.html" class="text-decoration-none text-dark">
-              <div class="card">
+              <div class="card h-100">
                 <img src="img/partic.jpg" class="card-img-top" alt="intern" />
                 <div class="card-body text-center">
                   <p class="card-text">Participation</p>
@@ -235,10 +277,10 @@
               </div>
             </a>
           </div>
-
+          <!-- Certifications & Achievements -->
           <div class="col-md-4 col-10 mb-3">
             <a href="canda.html" class="text-decoration-none text-dark">
-              <div class="card">
+              <div class="card h-100">
                 <img src="img/sertif.png" class="card-img-top" alt="intern" />
                 <div class="card-body text-center">
                   <p class="card-text">Certifications & Achievements</p>
@@ -251,6 +293,81 @@
     </section>
     <!-- End of Experiences-->
 
+    <!-- Start of Modals -->
+    <!-- Project 1 Modal -->
+    <div class="modal fade" id="project1-modal" tabindex="-1" aria-labelledby="project1-modal-label" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title w-100 text-center" id="project1-modal-label">Final Year Project</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p><strong>Title:</strong> Molecular Dynamics Simulation of The Effect of Na-TFSI Concentration and Temperature on Ionic Liquid Pyr<sub>13</sub>-TFSI</p>
+            <p>
+              <strong>Description:</strong> This study uses Molecular Dynamics simulations to investigate the effect of Na-TFSI concentration and temperature on the structural and dynamic properties of the ionic liquid
+              Pyr<sub>13</sub>-TFSI. The goal is to understand how these factors influence ion interactions and mobility, relevant for sodium-ion battery electrolytes.
+            </p>
+            <p>
+              <strong>Requirements:</strong>
+              <span class="badge bg-primary fs-6 rounded-pill shadow-sm"> <i class="bi bi-cpu"></i> GROMACS </span>
+              <span class="badge bg-primary fs-6 rounded-pill shadow-sm"> <i class="bi bi-eye"></i> VMD</span>
+              <span class="badge bg-info fs-6 rounded-pill shadow-sm"> <i class="bi bi-file-code"></i> Python </span>
+              <span class="badge bg-info fs-6 rounded-pill shadow-sm"> <i class="bi bi-terminal"></i> Bash </span>
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" onclick="window.location.href='research.html'">View Details</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Project 2 Modal -->
+    <div class="modal fade" id="project2-modal" tabindex="-1" aria-labelledby="project2-modal-label" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title w-100 text-center" id="project2-modal-label">Charge Scaling Script</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p><strong>Title:</strong> Charge Scaling Python Script for GROMACS Topology</p>
+            <p><strong>Description:</strong> Automates charge scaling in .top files to improve the accuracy of molecular dynamics simulations of ionic liquids.</p>
+            <p>
+              <strong>Requirements:</strong>
+              <span class="badge bg-info fs-6 rounded-pill shadow-sm"> <i class="bi bi-file-code"></i> Python </span>
+              <span class="badge bg-info fs-6 rounded-pill shadow-sm"> <i class="bi bi-terminal"></i> Bash </span>
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" onclick="window.location.href='charge_scaling.html'">View Details</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Project 3 Modal -->
+    <div class="modal fade" id="project3-modal" tabindex="-1" aria-labelledby="project3-modal-label" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="project3-modal-label">Triple-Dice</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p><strong>Title:</strong> Triple-Dice Generator</p>
+            <p><strong>Description:</strong> Generates random dice outcomes, stores the rolls, and tracks players' predicted scores for a simulation of a triple-dice game.</p>
+            <strong>Requirements:</strong>
+            <span class="badge bg-info fs-6 rounded-pill shadow-sm"> <i class="bi bi-file-code"></i> Python </span>
+            <span class="badge bg-info fs-6 rounded-pill shadow-sm"> <i class="bi bi-terminal"></i> Bash </span>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" onclick="window.location.href='triple-dice.html'">View Details</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End of Modals -->
+
     <!-- Footer -->
     <div class="footer text-white text-center" style="background-color: #3a3a3a">
       <p>"Science is organised knowledge. Wisdom is organised life" - Immanuel Kant</p>
@@ -260,5 +377,7 @@
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
     <script src="script.js"></script>
+
+    <!-- etc -->
   </body>
 </html>

@@ -1,7 +1,9 @@
-section {
-  padding-top: 5rem;
+/* Navbar Setting */
+.navbar {
+  background-color: #3a3a3a;
 }
 
+/* Jumbotron Setting */
 .jumbotron {
   padding: 6rem 1rem;
   background-color: #d9d9d9;
@@ -22,44 +24,34 @@ section {
   transform: scale(1.2);
 }
 
-#about {
-  padding-bottom: 2rem;
+/* Section Setting */
+section {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 
-#project {
-  padding-bottom: 2rem;
-}
-
+/* Specific Section Colors */
+#skills,
 #experience {
-  padding-bottom: 2rem;
   background-color: #d9d9d9;
 }
 
-#skill {
-  padding-bottom: 2rem;
-  background-color: #d9d9d9;
-}
-
+/* Card Setting */
 .card-img-top {
   height: 200px;
   object-fit: cover;
 }
 
-#project .card,
+#projects .card,
 #experience .card {
   transition: transform 0.2s, box-shadow 0.2s;
   cursor: pointer;
 }
 
-#project .card:hover,
+#projects .card:hover,
 #experience .card:hover {
   transform: scale(1.05);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-}
-
-.footer {
-  margin-top: auto;
-  padding: 1rem 0;
 }
 
 .card .card-img-top {
@@ -71,6 +63,7 @@ section {
   filter: grayscale(0%);
 }
 
+/* Experience Page Setting */
 .experience-page {
   display: flex;
   flex-direction: column;
@@ -88,6 +81,8 @@ section {
   flex: 1;
   padding: 60px 0;
 }
+
+/* Experience Card Setting */
 .experience-card {
   border: none;
   border-radius: 15px;
@@ -111,4 +106,10 @@ section {
 
 .experience-card .card-body {
   text-align: justify;
+}
+
+/* Footer Setting */
+.footer {
+  margin-top: auto;
+  padding: 1rem 0;
 }

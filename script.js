@@ -1,3 +1,4 @@
+// Make navbar links highlight active when clicked
 document.querySelectorAll(".nav-link").forEach((link) => {
   link.addEventListener("click", function () {
     document.querySelectorAll(".nav-link").forEach((item) => item.classList.remove("active"));
